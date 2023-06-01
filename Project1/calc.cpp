@@ -1,6 +1,20 @@
 class Cal
 {
-public:
+public:  
+	int getSum(int a, int b)
+	{
+		return (a + b);
+	}
+  
+	int getZegop(int a)
+	{
+		return a * a;
+	}
+	
+  int getMinus(int a, int b)
+	{
+		return a - b;
+  }
 
 	int GetDivide(int a, int b)
 	{
@@ -11,9 +25,4 @@ public:
 	{
 		return a + b + c;
   }
-  
-	int getSum(int a, int b)
-	{
-		return (a + b);
-	}
 };
