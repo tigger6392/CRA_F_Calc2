@@ -10,5 +10,10 @@ public:
 	int GetSumSum(int a, int b, int c)
 	{
 		return a + b + c;
+  }
+  
+	int getSum(int a, int b)
+	{
+		return (a + b);
 	}
 };

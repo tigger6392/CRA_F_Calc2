@@ -23,3 +23,11 @@ TEST(TestCaseName, TCSumSum) {
 	EXPECT_EQ(15, cal->GetSumSum(4, 5, 6));
 	EXPECT_EQ(24, cal->GetSumSum(7, 8, 9));
 }
+
+TEST(TestCaseName, SumTestm) {
+	Cal* cal = new Cal();
+	int ret = cal->getSum(1, 2);
+	EXPECT_TRUE(ret == 3);
+	delete cal;
+}
+
